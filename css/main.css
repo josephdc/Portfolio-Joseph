@@ -32,11 +32,17 @@ blockquote {
     margin-right: 46%;
     font-size: 12px;
 }
-.text-muted {
+.text-muted  {
     color: darkblue;
-    opacity: .2;
-}
+    opacity: .4;}
 
+h4 {
+    color: darkblue;
+    opacity: .4;}
+
+h6 {
+    font-style: italic;
+}
 .lead {
     font-size: 15px;
     text-indent: 10px;}
@@ -47,8 +53,8 @@ blockquote {
 
 #circles {
     display: inline-block;
-    vertical-align: middle;
-    margin: 1%;
+    margin: 7%;
+    border: lightgrey solid 8px;
 }
 
 .featurette-divider {
