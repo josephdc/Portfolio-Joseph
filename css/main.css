@@ -41,7 +41,7 @@ blockquote {
     opacity: .4;}
 
 #pic {
-
+    margin-right: 15%;
 }
 
 h4 {
@@ -64,9 +64,10 @@ h6 {
 
 #connections {
     display: inline-block;
-    margin: 12%;
+    margin: 9%;
     margin-bottom: 7px;
     margin-top: -18px;
+
 }
 
 #portfolio {
@@ -160,13 +161,31 @@ footer {
         font-size: 30px;
     }
 
-}
-
-@media(max-width:768px) {
-    .container {
-        margin: 0 100px -180px;
+    #circles {
+        margin: 10px;
+        margin-bottom: 2%;
+        border: lightgrey solid 8px;
+        margin-top: 2%;
     }
 
+}
+
+@media(max-width:736px) {
+    .header-image {
+    padding-bottom: 24%;
+    margin-right: -2%;
+    padding-right: 4%;
+    }
+
+    #pic {
+    margin-left: 9%;
+    padding-right: 7%;
+    }
+
+    /*.container {
+        margin: 0 100px -180px;
+    }
+*/
     .featurette-divider {
         margin: 40px 0;
     }
@@ -174,27 +193,22 @@ footer {
     .featurette-heading {
         font-size: 40px;
         text-align: center;
+        margin-top: -2%;
     }
 
-    #circles {
-        display: inline-block;
-        margin: 25%;
-        margin-bottom: 2%;
-        border: lightgrey solid 8px;
-        margin-top: 2%;
+    #portfolio {
+    margin: 72px;
     }
 
     #connections {
-        display: inline-block;
+        padding-top: 1%;
         margin: 6%;
-        margin-bottom: 7px;
-        margin-top: -18px;
     }
 }
 
 @media(max-width:668px) {
     .container {
-        margin: 0 12px -75px;
+        padding-left: 7px;
     }
     .headline h1 {
         font-size: 30px;
@@ -260,10 +274,33 @@ footer {
 
     #connections {
     display: inline-block;
-    margin: 0%;
+    margin: 8%;
     margin-bottom: 7px;
     margin-top: -18px;
+    }
+    .container {
+       /* padding-left: 30px;*/
+       padding-right: 0%;
+    }
 }
+
+@media(max-width:568px) {
+    .headline h1 {
+        font-size: 45px;
+    }
+    #pic {
+        margin-right: 24%;
+    }
+    .container {
+        margin: 0 2px -75px;
+    }
+    #circles {
+        margin: 5%;
+    }
+    #connections {
+        padding-left: 4%;
+        margin-left: -3%;
+    }
 }
 
 @media(max-width:375px) {
