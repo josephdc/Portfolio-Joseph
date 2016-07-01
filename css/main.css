@@ -25,8 +25,9 @@ body {
     background-size: cover;
 }
 
-p{
+.skills{
     color: black;
+    text-align: center;
     }
 
 .headline {
@@ -43,13 +44,15 @@ p{
     text-shadow: 0px 0px 50px darkblue;}*/
 
 blockquote {
-    color: lightgrey;
+    color: white;
     background-color: grey;
-    margin-right: 46%;
     font-size: 12px;
+    padding: 2%;
+    border: none;
+    width: 65%;
+    margin-left: 17%;
 }
 .text-muted  {
-    color: darkblue;
     opacity: .4;}
 
 #pic {
@@ -57,9 +60,7 @@ blockquote {
 }
 
 #about {
-    /*background-color: rgba(230, 230, 230, 0.83);
-    margin: -5%;
-    padding: 5%;*/
+    padding: 5%;
 }
 
 h4 {
@@ -85,11 +86,17 @@ h6 {
     margin: 0% -35%;
     margin-left: 34%;
     padding: 1%;
-
 }
 
 #connections :hover {
     cursor: pointer;
+}
+
+#connect {
+    background-color: white;
+    margin-top: -3%;
+    margin-left: -2%;
+    margin-bottom: -3%;
 }
 
 #portfolio {
@@ -98,20 +105,25 @@ h6 {
     padding-left: 2%;
 }
 
-#vertical-1 {
-    width: 25%;
+.p1, .p3{
+    padding-left: 4%;
+    padding-top: 2%;
+    margin-bottom: 3%;
 }
 
-#vertical-2 {
-    /*display: inline-block;*/
-    margin: 25%;
-    /*margin-bottom: 40px;*/
-    margin-top: -28%;
-    width: 25%;
+.p2 {
+    text-align: right;
+    padding-right: 6%;
 }
 
-#vertical-3 {
-    width: 25%;
+.SENT {
+    margin-right: 38%;
+    margin-top: -11%;
+}
+
+.SSG, .YBC {
+    margin-left: 37%;
+    margin-top: -12%;
 }
 
 .featurette-divider {
@@ -126,12 +138,13 @@ h6 {
     margin-right: 40px;
 }
 
-.featurette-image.pull-right {
+/*.featurette-image.pull-right {
     margin-left: 40px;
-}
+}*/
 
 .featurette-heading {
     font-size: 50px;
+    text-align: center;
 }
 
 footer {
