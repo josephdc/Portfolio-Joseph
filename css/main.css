@@ -37,12 +37,6 @@ body {
     color: red;
 }
 
-/*.headline h1 {
-    font-size: 130px;
-    color: white;
-    opacity: .7;
-    text-shadow: 0px 0px 50px darkblue;}*/
-
 blockquote {
     color: white;
     background-color: grey;
@@ -118,12 +112,12 @@ h6 {
 
 .SENT {
     margin-right: 38%;
-    margin-top: -11%;
+    margin-top: -21%;
 }
 
 .SSG, .YBC {
     margin-left: 37%;
-    margin-top: -12%;
+    margin-top: -16%;
 }
 
 .featurette-divider {
@@ -152,12 +146,16 @@ footer {
 }
 
 ///////////////////////////////////
-
+/*iPad*/
 @media(max-width:1024px) {
     .headline h1 {
         font-size: 70px;
         margin-bottom: 10%;
         margin-left: -10%;
+    }
+    .SSG, .YBC {
+        margin-left: 50%;
+        margin-top: -30%;
     }
 }
 
@@ -200,52 +198,54 @@ footer {
     }
 
 }
-
+/*iPhone 6plus*/
 @media(max-width:736px) {
+    .body {
+
+    }
+    .navbar {
+        margin-left: -5%;
+        margin-top: -13%;
+    }
     .container {
-    padding: 0%;
+        padding-top: 13%;
     }
     .header-image {
     padding-bottom: 35%;
     margin-right: -2%;
     padding-right: 4%;
     }
+    #sent-image {
 
-    #pic {
-    margin-left: 25%;
-    padding-right: 10%;
     }
-
-    .featurette-divider {
-        margin: 40px 0;
+    #ssg-image {
+        margin-left: -2%;
     }
-
-    #circles {
-    margin: 10%;
-    }
-
     #portfolio {
-    margin: 72px;
+    padding-top: 10%;
+    padding: 5%;
     }
 
     #connect {
-        padding-top: 2%;
-        margin: 5%;
+        margin: -6%;
+        display: inline-flex;
+        padding-top: 10%;
+        padding-bottom: 5%;
     }
 }
 
+/*iPhone 6*/
 @media(max-width:667px) {
-    .container {
-    padding-left: 35px;
-    }
     .headline h1 {
     margin: 1%;
     }
 
     .headline h2 {
-        font-size: 10px;
+    font-size: 10px;
     }
-
+    .header-image {
+    padding-bottom: 43%;
+    }
     .navbar-nav {
     margin: 90.5px -16px;
     margin-top: 10px;
@@ -258,18 +258,34 @@ footer {
     margin-right: 0%;
     font-size: 10px;
     }
+    .SENT {
+        margin-left: -13%;
+        padding: 0%;
+    }
 
+    #ybc-image {
+    margin-left: -2%;
+    }
+    #sent-image {
+    margin-right: -6%;
+    }
+    #ssg-image {
+    margin-right: -4%;
+    }
     .featurette-image {
         max-width: 100%;
         margin-right: 11%;
     }
-
+    featurette-heading {
+        margin-top: 1%;
+    }
     .featurette-divider {
         margin: 30px 0;
     }
 
     #connect {
-        margin: 12%;
+        padding: 8%;
+        padding-bottom: 0%;
     }
 }
 
@@ -298,35 +314,97 @@ footer {
     }
 }
 
+/*iPhone 5*/
 @media(max-width:568px) {
+    a {
+        margin-left: 4%;
+    }
     .headline h1 {
         font-size: 45px;
+    }
+    blockquote {
+    color: lightgrey;
+    background-color: grey;
+    font-size: 12px;
+    width: 92%;
+    margin-left: 3%;
+    }
+    .header-image {
+        padding-top: 110%;
+        margin-left: -20%;
+        margin-right: -3%;
     }
     .featurette-heading {
     font-size: 25px;
     text-align: center;
-    margin-top: -2%;
+    margin-top: 15%;
     }
     .text-muted {
     color: darkblue;
     opacity: .4;
     font-size: 20px;
     }
-    #pic {
-        margin-right: 21%;
+    #about  {
+        padding: 3%;
+        margin-top: -20%;
+        margin-bottom: 16%;
+    }
+    .p1, .p3 {
+        text-align: center;
+        margin: -3%;
+    }
+    p {
+        margin: 0px 14px 10px;
     }
     .container {
-        margin: 0 2px -75px;
+        margin: 0 2px -45px;
+        padding-left: 3%;
     }
-    #circles {
-        margin: 0%;
+    .lead {
+        text-align: center;
+    }
+    #ybc-image {
+        max-width: 100%;
+    }
+    #sent-image {
+        margin-left: -6%;
+        padding: 7%;
+    }
+
+    #ssg-image {
+        margin-left: -7%;
+        padding: 8%;
     }
     #connections {
-        margin: -4%;
-        padding: 5%;
+        margin: 0%;
+        padding: 1%;
     }
     #portfolio {
-    margin: 48px;
+        margin: -9px;
+        background-color: white;
+    }
+    .featurette-divider {
+        margin: 40px 0;
+    }
+    .SSG {
+        margin-left: -3%;
+        margin-top: -10%;
+        margin-bottom: 7%;
+    }
+    .YBC {
+        margin-left: -3%;
+        margin-top: 0%;
+        margin-bottom: 7%;
+    }
+    .SENT {
+        margin-top: -10%;
+        margin-bottom: 7%;
+        margin-right: -11%;
+        text-align: center;
+    }
+    #connect {
+        margin: 0%;
+        margin-left: 4px;
     }
 }
 
